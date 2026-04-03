@@ -1,4 +1,4 @@
-module task_3
+module task_5
 
 go 1.26.1
 

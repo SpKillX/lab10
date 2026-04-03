@@ -1,0 +1,10 @@
+syntax = "proto3";
+package booking;
+option go_package = "./proto";
+
+service BookingService {
+  rpc CheckTable (TableRequest) returns (TableResponse);
+}
+
+message TableRequest { int32 id = 1; }
+message TableResponse { bool available = 1; }

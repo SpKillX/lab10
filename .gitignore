@@ -1,9 +1,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
 .venv/
 venv/
-.pytest_cache/
+ENV/
+.env
 
 *.exe
 *.exe~
@@ -11,11 +13,12 @@ venv/
 *.so
 *.dylib
 bin/
+server
+vendor/
 
-target/
-**/target/
-**/*.rs.bk
 
 .vscode/
 .idea/
 *.swp
+*.DS_Store
+Thumbs.db
